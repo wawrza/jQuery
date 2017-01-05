@@ -1,17 +1,17 @@
 // plik jQuery.js 
 
 var div = $("div").css("padding", "5px 5px"),
-	span = $("span");
+  span = $("span");
 
-	$("span:odd").css('color','red');
+  $("span:odd").css('color','red');
 
-	var paragraphs = $('p');
+  var paragraphs = $('p');
 
-	paragraphs.each(function(index, element) {
+  paragraphs.each(function(index, element) {
 
-        button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
+    button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
 
-        $(element).append(button)
+  $(element).append(button)
 
 });
 
