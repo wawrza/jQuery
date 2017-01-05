@@ -11,10 +11,10 @@ var div = $("div").css("padding", "5px 5px"),
 
     button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
 
-  $(element).append(button)
+    $(element).append(button)
 
 });
 
-	$("button").click(function(){
-	   alert($(this).attr("data-tmp"));
+  $("button").click(function(){
+    alert($(this).attr("data-tmp"));
 });
