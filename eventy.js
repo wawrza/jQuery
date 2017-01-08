@@ -1,10 +1,6 @@
 var carouselList = $("#carousel ul");
 
-$(function(){
-	console.log('DOM załadowany - można się bawić');
-});
-$(setInterval(changeSlide, 3000);{
-
+setInterval(changeSlide, 3000);{
 	carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
 });
 $(function(){
@@ -13,4 +9,3 @@ $(function(){
 	lastItem.after(firstItem);
 	carouselList.css({marginLeft:0});
 });
-
